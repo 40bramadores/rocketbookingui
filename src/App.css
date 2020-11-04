@@ -1,0 +1,107 @@
+.form-div {
+  margin-top: 80px;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 50%;
+  padding-top: 1rem;
+}
+
+.form-validation-message {
+  padding-bottom: 1rem;
+}
+
+.form-error-text {
+  font-size: 13pt;
+  color: red;
+}
+
+.form-message {
+  font-size: 13pt;
+}
+
+.form-label {
+  font-size: larger;
+}
+
+.form-buttons {
+  width: 100%;
+  display: flex;
+  place-content: flex-start;
+  padding-top: 1rem;
+}
+
+.panel-gestion-div {
+  display: flex;
+  place-content: space-evenly;
+  padding: 7rem;
+}
+
+.loader {
+  color: black;
+  font-size: 1rem;
+}
+
+.modal-input-label {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.modal-success-message {
+  font-size: larger;
+  color: green;
+}
+
+.modal-error-message {
+  font-size: larger;
+  color: red;
+}
+
+.modal-buttons {
+  width: 100%;
+  display: flex;
+  place-content: flex-end;
+}
+
+.images-div {
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-evenly;
+  padding: 4rem;
+}
+
+.images-card {
+  height: max-content;
+  margin: 1em 10px !important;
+  
+}
+
+.navbar__companyname{
+  margin-left: 10px;
+}
+
+@media (max-width: 920px){
+  .form-input {
+    width: 80%;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 480px){
+  .navbar__companyname{
+    display: none;
+  }
+  .form-input {
+    width: 90%;
+    padding-top: 1rem;
+  }
+  .navbar__logo{
+    width: 50px;
+    display: flex;
+    place-content: center;
+  }
+}
+
