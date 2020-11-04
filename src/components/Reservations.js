@@ -152,7 +152,7 @@ export default class Reservations extends Component {
   clearForm = () => {
     this.setState({
       ticketQuantity: 0,
-      eventsId: 0,
+      eventId: 0,
       email: '',
       name: '',
     });
